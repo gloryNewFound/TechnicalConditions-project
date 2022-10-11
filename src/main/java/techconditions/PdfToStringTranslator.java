@@ -7,6 +7,12 @@ import java.io.IOException;
 
 public abstract class PdfToStringTranslator {
 
+    private static String fullDocumentString;
+
+    public static String getFullDocumentString() {
+        return fullDocumentString;
+    }
+
     //Returns PDF file in String format
     public static String getFullDocumentString(File file) {
 
@@ -18,14 +24,15 @@ public abstract class PdfToStringTranslator {
             text = pdfTextStripper.getText(document);
         } catch (IOException e) {
             System.out.println("******************************************************************");
-            System.out.println("Exception in pdf to string traslation: " + e.getStackTrace());
+            System.out.println("Exception in pdf to string translation: " + e.getStackTrace());
             System.out.println("Exception in file: " + file.getName());
             System.out.println("******************************************************************");
             text = "";
         }
-
         //Deleting extra-spaces
-        return text.replaceAll("[\\s]{2,}", " ");
+        fullDocumentString = text.replaceAll("[\\s]{2,}", " ");
+
+        return fullDocumentString;
     }
 
 }

@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19b896b-fabc-41e8-b53d-c7cf3c8601ab" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/FileSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/PdfToStringTranslator.java" afterDir="false" />
+    <list default="true" id="c19b896b-fabc-41e8-b53d-c7cf3c8601ab" name="Changes" comment="File searcher was added&#10;PdfToStringTranslator searcher was added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/TechConditionDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/AddressAndKadastr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/AutomatCurrent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/FullName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/NumberOfContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Phase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/PointSevenOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Res.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Tariff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/TypeOfInclusion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/PdfToStringTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/PdfToStringTranslator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +51,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/dvn/Projects/Technical Conditions/TechnicalConditions/src/main/java/techconditions/parameters",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dvn\Projects\Technical Conditions\TechnicalConditions\src\main\java\techconditions\parameters" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665508984816</updated>
-      <workItem from="1665508987108" duration="3158000" />
+      <workItem from="1665508987108" duration="6131000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665514777247</created>
@@ -61,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665514777247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="File searcher was added&#10;PdfToStringTranslator searcher was added">
+      <created>1665517149435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665517149435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="File searcher was added&#10;PdfToStringTranslator searcher was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="File searcher was added&#10;PdfToStringTranslator searcher was added" />
   </component>
 </project>
