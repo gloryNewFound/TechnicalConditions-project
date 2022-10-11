@@ -12,7 +12,7 @@ public class AddressAndKadastr {
     private String kadastr;
 
     public AddressAndKadastr() {
-        String addressAndKadastr = findAddressAndKadastr(PdfToStringTranslator.getFullDocumentString()); //It is a string which was get from PDF by PDFParser class
+        String addressAndKadastr = findAddressAndKadastr(PdfToStringTranslator.getFullDocumentString());
         this.kadastr = findKadastr(addressAndKadastr);
         this.address = findAddress(addressAndKadastr, kadastr.length());
 
@@ -40,8 +40,6 @@ public class AddressAndKadastr {
         String point = string.substring(beginIndex, beginIndex + endIndex);
         return point;
     }
-
-
 
     public String findAddress(String documentText, int kadastrSize) {
         String addressWithoutKadastr = documentText.replaceAll(" кадастровый номер:", "");

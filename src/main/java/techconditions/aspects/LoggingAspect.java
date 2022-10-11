@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class LoggingAspect {
 
-    @After("findingParameterPointcut()")
-    public void afterDocumentWritingLoggingAspect() {
+    @After("writingTechConditionsPointcut()")
+    public void afterTechConditionsWritingLoggingAspect() {
         System.out.println("******************************************************************");
         System.out.println("");
         System.out.println("******************************************************************");

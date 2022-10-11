@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19b896b-fabc-41e8-b53d-c7cf3c8601ab" name="Changes" comment="Parameters were added">
-      <change afterPath="$PROJECT_DIR$/libs/aspectjweaver-1.9.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/XLSFileCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/aspects/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/aspects/Pointcuts.java" afterDir="false" />
+    <list default="true" id="c19b896b-fabc-41e8-b53d-c7cf3c8601ab" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/techconditions/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/FileSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/FileSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/PdfToStringTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/PdfToStringTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/TechConditionDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/TechConditionDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/aspects/Pointcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/aspects/Pointcuts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -61,8 +59,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="techconditions.Test" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="techconditions.TestClass" />
       <module name="TechnicalConditions" />
       <extension name="coverage">
         <pattern>
@@ -76,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665508984816</updated>
-      <workItem from="1665508987108" duration="8224000" />
+      <workItem from="1665508987108" duration="8994000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665514777247</created>
@@ -111,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665520607689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit">
+      <created>1665522766685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665522766685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +138,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="File searcher was added&#10;PdfToStringTranslator searcher was added" />
     <MESSAGE value="Parameters were added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parameters were added" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
 </project>

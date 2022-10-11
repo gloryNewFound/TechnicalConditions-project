@@ -40,7 +40,6 @@ public class TechConditionDocument {
         this.file = file;
     }
 
-
     public AddressAndKadastr getAddressAndKadastr() {
         return addressAndKadastr;
     }
