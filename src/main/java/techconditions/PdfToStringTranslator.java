@@ -35,4 +35,8 @@ public abstract class PdfToStringTranslator {
         return fullDocumentString;
     }
 
+        public static boolean ifItIsTechConditionFile(String text) {
+            return text.toLowerCase().indexOf("технические условия") > 0 ? true : false;
+    }
+
 }

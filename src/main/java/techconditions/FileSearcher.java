@@ -12,9 +12,7 @@ public abstract class FileSearcher {
             return files;
     }
 
-//    public static boolean ifItIsTechConditionFile(String text) {
-//            return text.toLowerCase().indexOf("технические условия") > 0 ? true : false;
-//    }
+
 
 }
 
