@@ -36,7 +36,7 @@ public class AddressAndKadastr {
     private String findPoint(String string) {
         int beginIndex = (string.indexOf("2. Наименование"))
                 + ("2. Наименован").indexOf(":") + 1;
-        int endIndex = string.substring(beginIndex).indexOf(". 3");
+        int endIndex = string.substring(beginIndex).indexOf("3. ");
         String point = string.substring(beginIndex, beginIndex + endIndex);
         return point;
     }

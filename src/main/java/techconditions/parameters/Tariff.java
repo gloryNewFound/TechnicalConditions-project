@@ -46,7 +46,9 @@ public class Tariff {
 
     private static String parsePoint10(String stringForParsing) {
         int beginIndex = (stringForParsing.indexOf("10.1. "));
+        if (beginIndex < 0) return "отсутствует";
         int endIndex = stringForParsing.substring(beginIndex).indexOf("11. ");
+        if (endIndex < 0) return "отсутствует";
         String findPoint10_3_1 = stringForParsing.substring(beginIndex, beginIndex + endIndex);
         return findPoint10_3_1;
     }
@@ -75,7 +77,9 @@ public class Tariff {
         String point19;
         if (stringForParsing.indexOf("19. ") > 0) {
             int beginIndex = (stringForParsing.indexOf("19. "));
+            if (beginIndex < 0) return "отсутствует";
             int endIndex = stringForParsing.substring(beginIndex).indexOf("19.1. ");
+            if (endIndex < 0) return "отсутствует";
             point19 = stringForParsing.substring(beginIndex, beginIndex + endIndex);
         } else {
             point19 = "отсутствует";

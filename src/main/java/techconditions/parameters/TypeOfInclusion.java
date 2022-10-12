@@ -20,16 +20,24 @@ public class TypeOfInclusion {
 
     private String findTypeOfInclusion(String stringForParsing){
         String point10_3_1 = findPoint10_3_1(stringForParsing);
-        int beginIndex = point10_3_1.indexOf("фазный") + 7;
-        int endIndex = point10_3_1.substring(beginIndex).indexOf("включения") + 9;
-        String result = point10_3_1.substring(beginIndex, beginIndex + endIndex);
-        return result;
+        if (point10_3_1.indexOf("прямо") > 0) {
+            return "прямого включения";
+        } else if (point10_3_1.indexOf("косвен") > 0) {
+            return "косвенного включения";
+        } else {
+            return "нет данных";
+        }
+//        int beginIndex = point10_3_1.indexOf("фазный") + 7;
+//        int endIndex = point10_3_1.substring(beginIndex).indexOf("включения") + 9;
+//        String result = point10_3_1.substring(beginIndex, beginIndex + endIndex);
+
     }
 
     private String findPoint10_3_1(String stringForParsing){
         int beginIndex = (stringForParsing.indexOf("10.3.1. "));
+        if (beginIndex < 0) return "";
         int endIndex = stringForParsing.substring(beginIndex).indexOf("11. ");
-        String point10_3_1 = stringForParsing.substring(beginIndex, beginIndex + endIndex);
-        return point10_3_1;
+        if (endIndex < 0) return "";
+        return stringForParsing.substring(beginIndex, beginIndex + endIndex);
     }
 }

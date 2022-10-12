@@ -33,7 +33,8 @@ public class Phase {
     private static String parsePoint10(String stringForParsing) {
         int beginIndex = (stringForParsing.indexOf("10.1. "));
         int endIndex = stringForParsing.substring(beginIndex).indexOf("11. ");
-        String findPoint10_3_1 = stringForParsing.substring(beginIndex, beginIndex + endIndex);
-        return findPoint10_3_1;
+        System.out.println(stringForParsing.substring(beginIndex));
+        String point10_1 = stringForParsing.substring(beginIndex, beginIndex + endIndex);
+        return point10_1;
     }
 }

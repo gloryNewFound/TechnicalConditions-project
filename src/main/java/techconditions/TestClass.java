@@ -32,6 +32,7 @@ public class TestClass {
         int counter = 0;
         for (File file: documents) {
             fullDocumentString = PdfToStringTranslator.getFullDocumentString(file);
+//            System.out.println(fullDocumentString);
 
             if (PdfToStringTranslator.ifItIsTechConditionFile(fullDocumentString)) {
                 TechConditionDocument document = context.getBean("techConditionDocumentBean", TechConditionDocument.class);

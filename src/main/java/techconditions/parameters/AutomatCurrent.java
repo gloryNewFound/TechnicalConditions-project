@@ -51,32 +51,36 @@ public class AutomatCurrent {
 
     private static String findPoint10_3_1(String string){
         int beginIndex = (string.indexOf("10.3.1.")) + ("10.3.1.").length();
-        if (beginIndex < 0) {return null;}
+        if (beginIndex < 0) {return "";}
         int endIndex = string.substring(beginIndex).indexOf(" 11. ");
+        if (endIndex < 0) return "";
         String result = string.substring(beginIndex, beginIndex + endIndex);
         return result;
     }
 
     private static String findPoint10_1_2(String string){
         int beginIndex = (string.indexOf("10.1.2.")) + ("10.1.2.").length();
-        if (beginIndex < 0) {return null;}
+        if (beginIndex < 0) {return "";}
         int endIndex = string.substring(beginIndex).indexOf(" 10.2. ");
+        if (endIndex < 0) return "";
         String result = string.substring(beginIndex, beginIndex + endIndex);
         return result;
     }
 
     private static String findPoint10_3_2(String string){
         int beginIndex = (string.indexOf("10.3.2.")) + ("10.3.2.").length();
-        if (beginIndex < 0) {return null;}
+        if (beginIndex < 0) {return "";}
         int endIndex = string.substring(beginIndex).indexOf(" 11. ");
+        if (endIndex < 0) return "";
         String result = string.substring(beginIndex, beginIndex + endIndex);
         return result;
     }
 
     private static String findPoint10_2_1(String string){
         int beginIndex = (string.indexOf("10.2.1.")) + ("10.2.1.").length();
-        if (beginIndex < 0) {return null;}
+        if (beginIndex < 0) {return "";}
         int endIndex = string.substring(beginIndex).indexOf(" 10.3. ");
+        if (endIndex < 0) return "";
         String result = string.substring(beginIndex, beginIndex + endIndex);
         return result;
     }
@@ -87,6 +91,7 @@ public class AutomatCurrent {
         } else {
             int beginIndex = (point.indexOf("на ток ")) + ("на ток ").length();
             int endIndex = point.substring(beginIndex).indexOf("А");
+            if (endIndex < 0) return "";
             String result = point.substring(beginIndex, beginIndex + endIndex + 1);
             return result;
         }
