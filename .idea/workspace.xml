@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c19b896b-fabc-41e8-b53d-c7cf3c8601ab" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/PdfToStringTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/PdfToStringTranslator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/parameters/AddressAndKadastr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/AddressAndKadastr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/parameters/AutomatCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/AutomatCurrent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/aspects/LoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Phase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Phase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Tariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Tariff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/parameters/TypeOfInclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/TypeOfInclusion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dvn/Projects/Technical Conditions/TechnicalConditions",
+    "last_opened_file_path": "C:/Users/dvn/Projects/Technical Conditions/TechnicalConditionsProject/libs/aspectjweaver-1.9.9.1.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -74,6 +70,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestClass" />
@@ -90,6 +97,7 @@
       <updated>1665508984816</updated>
       <workItem from="1665508987108" duration="9748000" />
       <workItem from="1665599778672" duration="5529000" />
+      <workItem from="1665676620582" duration="2808000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665514777247</created>

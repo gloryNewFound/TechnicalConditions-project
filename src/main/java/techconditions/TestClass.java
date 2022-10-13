@@ -9,7 +9,7 @@ import java.util.List;
 
 public class TestClass {
 
-    private static String currentDirectory = "C:\\Users\\dvn\\Projects\\Technical Conditions\\Test folder";
+    private static String currentDirectory = "C:\\Users\\dvn\\Projects\\Technical Conditions\\Test Folder";
 
     private static List<File> documents = new ArrayList<>();
 
@@ -33,14 +33,15 @@ public class TestClass {
         for (File file: documents) {
             fullDocumentString = PdfToStringTranslator.getFullDocumentString(file);
 //            System.out.println(fullDocumentString);
-
+            System.out.println("Checking: " + file.getName());
             if (PdfToStringTranslator.ifItIsTechConditionFile(fullDocumentString)) {
+
                 TechConditionDocument document = context.getBean("techConditionDocumentBean", TechConditionDocument.class);
                 document.setFile(file);
-                System.out.println("Technical conditions parsing from " + file.getName());
+
                 document.setCounter(++counter);
                 techConditionDocuments.add(document);
-                System.out.println("Filling row number " + XLSFileCreator.getRowNumber());
+                System.out.println("Filling row number written " + XLSFileCreator.getRowNumber());
                 XLSFileCreator.fillFields(document, currentDirectory); //Fill Excel file with the TechConditionDocument
             }
         }
