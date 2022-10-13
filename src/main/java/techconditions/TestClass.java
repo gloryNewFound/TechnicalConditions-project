@@ -9,7 +9,7 @@ import java.util.List;
 
 public class TestClass {
 
-    private static String currentDirectory = "C:\\Users\\dvn\\Projects\\Technical Conditions\\Test Folder";
+    private static String currentDirectory = "C:\\Users\\dvn\\Downloads\\Telegram Desktop\\2022.09.14-1";
 
     private static List<File> documents = new ArrayList<>();
 
@@ -25,7 +25,7 @@ public class TestClass {
             }
         }
 
-        XLSFileCreator.createXLSXFile(currentDirectory);
+        XLSFileCreator.createXLSXFile(currentDirectory); //Creation of Excel file
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         //Create TechConditionDocumentBean for each found file
@@ -35,14 +35,12 @@ public class TestClass {
 //            System.out.println(fullDocumentString);
             System.out.println("Checking: " + file.getName());
             if (PdfToStringTranslator.ifItIsTechConditionFile(fullDocumentString)) {
-
                 TechConditionDocument document = context.getBean("techConditionDocumentBean", TechConditionDocument.class);
                 document.setFile(file);
-
-                document.setCounter(++counter);
+                document.setCounter(++counter); //Counting of the parsed documents
                 techConditionDocuments.add(document);
-                System.out.println("Filling row number written " + XLSFileCreator.getRowNumber());
-                XLSFileCreator.fillFields(document, currentDirectory); //Fill Excel file with the TechConditionDocument
+                System.out.println("Row number " + XLSFileCreator.getRowNumber() + " written");
+                XLSFileCreator.fillFields(document, currentDirectory); //Fill a row in the Excel file with the TechConditionDocument
             }
         }
         context.close();

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TechnicalConditions:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19b896b-fabc-41e8-b53d-c7cf3c8601ab" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TechnicalConditions_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/aspects/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Phase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techconditions/parameters/Phase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/dvn/Projects/Technical Conditions/TechnicalConditionsProject/libs/aspectjweaver-1.9.9.1.jar",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "spring.configuration.checksum": "496cf592538be3d0f2cb12e9e3b726a8"
@@ -97,7 +102,7 @@
       <updated>1665508984816</updated>
       <workItem from="1665508987108" duration="9748000" />
       <workItem from="1665599778672" duration="5529000" />
-      <workItem from="1665676620582" duration="2808000" />
+      <workItem from="1665676620582" duration="6327000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665514777247</created>
@@ -134,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665523731582</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit">
+      <created>1665679458551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665679458552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
